@@ -1,0 +1,11 @@
+ % Make an m_file with addeven(x)
+function even_sum = addeven(x)
+
+    % Initialize the sum to zero
+    even_sum = 0;
+
+    % Loop through the even indices and add the corresponding elements
+    for i = 2:2:length(x)
+        even_sum = even_sum + x(i);
+    end
+end
